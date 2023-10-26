@@ -35,6 +35,7 @@ export default function Layout({ children }: ComponentObj) {
             width={1000}
             height={500}
             alt="animation"
+            unoptimized={true}
             style={{
               width: '100vw',
               minWidth: '1000px',
