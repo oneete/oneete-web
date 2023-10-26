@@ -31,7 +31,7 @@ export default function Layout({ children }: ComponentObj) {
 
         <div className="fixed inset-0 z-10">
           <Image
-            src="/letter-animation.gif"
+            src="http://oneete.com/letter-animation.gif"
             width={1000}
             height={500}
             alt="animation"
