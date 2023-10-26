@@ -32,14 +32,14 @@ export default function Layout({ children }: ComponentObj) {
         <div className="fixed inset-0 z-10">
           <Image
             src="/letter-animation.gif"
-            width={100}
-            height={100}
+            width={1000}
+            height={500}
             alt="animation"
             style={{
               width: '100vw',
-              minWidth: '1920px',
+              minWidth: '1000px',
               height: '100vh',
-              minHeight: '1000px',
+              minHeight: '500px',
               opacity: 0.3,
               objectFit: 'cover',
             }}
