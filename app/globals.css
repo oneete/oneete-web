@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'swiper/css';
+@import 'swiper/css/navigation';
+@import 'swiper/css/pagination';
+
+@import './font.css';
+
+:root {
+  --primary: #dc2663;
+  --secondary: #00beb2;
+  --tertiary: #fdf04c;
+  --muted: #ddd;
+  --light: #f9f5f6;
+  --dark: #272829;
+  --dark-grey: #979797;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+  }
+}
+
+html,
+body,
+#__next {
+  height: 100%;
+}
+body {
+  color: var(--dark);
+  background-color: var(--dark-grey);
+}
+
+/* Sphere Animation */
+.sphere-animation {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 580px;
+  height: 580px;
+  margin: -290px 0 0 -290px;
+}
+.sphere path {
+  fill: url(#sphereGradient);
+  stroke-width: 1px;
+  stroke: rgba(80, 80, 80, 0.35);
+  backface-visibility: hidden;
+}
+@media (min-width: 500px) {
+  .sphere path {
+    stroke-width: 0.4px;
+  }
+}
+
+/* Letter Animation */
+.letterize-me {
+  display: inline-block;
+  font-size: 2rem;
+  color: #333;
+}

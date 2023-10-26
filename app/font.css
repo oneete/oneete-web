@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'tt-travels';
+  src:
+    local('tt-travels'),
+    url(../public/fonts/tt-travels/font.woff2) format('woff2'),
+    url(../public/fonts/tt-travels/font.woff) format('woff');
+}
+.font-tt-travels {
+  font-family: 'tt-travels', Helvetica, Arial;
+}
+
+/* App use */
+body {
+  font-family: 'tt-travels';
+}
